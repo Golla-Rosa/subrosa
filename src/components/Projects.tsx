@@ -69,7 +69,7 @@ const Project = (props: { size: Size }) => {
 }
 function Projects() {
     return (
-        <div style={{ font: "'ABeeZee'", margin: "40px" }}>
+        <div style={{ font: "'ABeeZee'" }}>
             <h1>Projets</h1>
             <Grid>
                 <Project size="wide"></Project>
@@ -79,17 +79,7 @@ function Projects() {
                 <Project size="small"></Project>
                 <Project size="wide"></Project>
                 <Project size="wide"></Project>
-                <Project size="wide"></Project>
-                <Project size="wide"></Project>
-                <Project size="small"></Project>
-                <Project size="small"></Project>
-                <Project size="small"></Project>
-                <Project size="small"></Project>
-                <Project size="small"></Project>
-                <Project size="small"></Project>
-                <Project size="small"></Project>
-                <Project size="tall"></Project>
-                <Project size="wide"></Project>
+               
             </Grid>
         </div>
     )

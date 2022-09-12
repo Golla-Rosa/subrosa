@@ -43,11 +43,11 @@ const WideCard = styled(Card)`
 
 function Team() {
     return (
-        <div style={{ font: "'ABeeZee'", margin: "40px" }}>
+        <div style={{ font: "'ABeeZee'" }}>
             <h1>L'équipe</h1>
             <br />
             <br />
-            <Grid styleProps={{columns: "3", rows: "3"}}>
+            <Grid styleProps={{gap: "20px", columns: "3", rows: "3"}}>
                 <Card>A</Card>
                 <Card>A</Card>
                 <Card>A</Card>
