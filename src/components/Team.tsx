@@ -43,7 +43,7 @@ const WideCard = styled(Card)`
 
 function Team() {
     return (
-        <div style={{ font: "'ABeeZee'" }}>
+        <div>
             <h1>L'équipe</h1>
             <br />
             <br />

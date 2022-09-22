@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { SBox } from '../../../../../experiences/CreativeCoding/LP/react-packages/src'
 
 const SCircle = styled.div`
     width: 14px;
