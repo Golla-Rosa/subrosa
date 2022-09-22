@@ -1,4 +1,4 @@
-import { ITheme } from "../../../../experiences/CreativeCoding/LP/react-packages/src/Interface/ITheme";
+import { ITheme } from "../src/UI/Interface/ITheme";
 
 export const colors: ITheme = {
     primary: { color: "#010028", text: "white" },
