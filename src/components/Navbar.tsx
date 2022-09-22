@@ -1,20 +1,29 @@
- import React from 'react'
-import { FlexBox } from '../../../../../experiences/CreativeCoding/LP/react-packages/src/Layout'
-import { Card } from '../../../../../experiences/CreativeCoding/LP/react-packages/src/Molecules/Cards/Card'
- 
+import React from 'react'
+import styled from 'styled-components'
+import { FlexBox } from '../UI/Layout'
+
 const LogoSection = () => {
     return (
-    <div style={{justifySelf: "start", width: "100%"}}><p>Subrosa</p></div>
-)}
+        <div style={{ justifySelf: "start", width: "100%" }}><p>Subrosa</p></div>
+    )
+}
+
+const SNavbar = styled.div`
+        position: fixed;
+        border-bottom: 1px solid red;
+        width: 100vw;
+`
 
 function Navbar() {
-   return (
-        <FlexBox styleProps={{justifyContent: "space-between", height: "50px", width: "100%"}}>
-            <LogoSection></LogoSection>
-            <div style={{width: "100%"}}>2</div>
-            <div style={{width: "100%"}}>3</div>
-        </FlexBox>
-   )
- }
- 
- export default Navbar
+    return (
+        <SNavbar>
+            <FlexBox styleProps={{ justifyContent: "space-between", height: "60px", width: "100%", bgColor: "primary" }}>
+                <div></div>
+                <LogoSection style={{ }}>SUBROSA</LogoSection>
+                <div style={{ width: "100%" }}></div>
+            </FlexBox>
+        </SNavbar>
+    )
+}
+
+export default Navbar

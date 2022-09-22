@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Grid } from '../../../../../experiences/CreativeCoding/LP/react-packages/src/Layout'
+import { Grid } from '../UI/Layout'
 
 const Card = styled.div`
     display: flex;
